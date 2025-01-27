@@ -54,7 +54,7 @@ I used a debugging technique we learnt in Engineering last year if working with 
 the returned number was totally unexpected and wrong, but it told me immediately what the issue was. 
 1. The numbers processed were all above 255, so because the maximum rgb value is 255, they all automatically processed as the highest value. this is why all 3 displayed the same colour.
 2. The numbers were being processed as **strings** data not number valyes, hence instead of
-3. 
+
 _3 + 4 = 7_
 what the computer was processing was _'3' + '4' = '34'_ as adding strings simply adds one to the end of another.
 
